@@ -1,4 +1,4 @@
 #!/bin/bash
 #docker ps | grep bb
 #[ $? -eq 0 ] && docker rm -f bb
-docker run -it busybox sh
+/usr/bin/docker run -it busybox sh
