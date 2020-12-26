@@ -1,1 +1,2 @@
-docker run -it busybox sh
+docker rm -f bb
+docker run --name bb -it busybox sh
